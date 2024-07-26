@@ -32,7 +32,7 @@ namespace Gothic_Pixels_Virtuals
             int[] convertedY = { value * Y / 8192, value * 8192 / Y };
 
             PixelsX.Text = convertedX[0].ToString();
-            PixelsY.Text = convertedX[0].ToString();
+            PixelsY.Text = convertedY[0].ToString();
 
             VirtualsX.Text = convertedX[1].ToString();
             VirtualsY.Text = convertedY[1].ToString();
